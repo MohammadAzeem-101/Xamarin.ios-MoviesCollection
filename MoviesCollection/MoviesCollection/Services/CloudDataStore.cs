@@ -17,10 +17,10 @@ namespace MoviesCollection
     {
 
         private const string apiKey = "4e9132a7e19a3ba4d2b55ae1ff31a1ad";
-        private const string baseUrl = "https://api.themoviedb.org/3";
+        private const string baseUrl = "https://api.themoviedb.org/3/";
         private const string searchMoviePath = "/search/movie";
-        private const string moviePath = "/movie";
-        private const string genreListPath = "/genre/list";
+        private const string moviePath = "genre/movie/list";
+        private const string genreListPath = "genre/list";
 
         private readonly string language;
         HttpClient client;
@@ -79,7 +79,29 @@ namespace MoviesCollection
         {
             throw new NotImplementedException();
         }
+
+        public async Task<List<Movie>> GetMovieAsync(bool forceRefresh = false)
+        {
+            var restUrl = $"{baseUrl}{moviePath}?api_key={apiKey}&language={language}";
+            try
+            {
+                using (var response = await client.GetAsync(restUrl).ConfigureAwait(false))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        using (var responseStream = await response.Content.ReadAsStreamAsync().ConfigureAwait(false))
+                        {
+                            var movieList = JsonConvert.DeserializeObject<MovieList>(await new StreamReader(responseStream).ReadToEndAsync().ConfigureAwait(false));
+                            return movieList?.Movies;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Trace.TraceError(ex.Message);
+            }
+            return null;
+        }
     }
-
-
 }

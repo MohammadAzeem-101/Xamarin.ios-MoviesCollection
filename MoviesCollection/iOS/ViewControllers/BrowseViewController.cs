@@ -31,14 +31,14 @@ namespace MoviesCollection.iOS
             Title = ViewModel.Title;
 
             ViewModel.PropertyChanged += IsBusy_PropertyChanged;
-            ViewModel.Genres.CollectionChanged += Items_CollectionChanged;
+            ViewModel.Movies.CollectionChanged += Items_CollectionChanged;
         }
 
         public override void ViewDidAppear(bool animated)
         {
             base.ViewDidAppear(animated);
 
-            if (ViewModel.Genres.Count == 0)
+            if (ViewModel.Movies.Count == 0)
                 ViewModel.LoadItemsCommand.Execute(null);
         }
 
@@ -48,7 +48,7 @@ namespace MoviesCollection.iOS
             {
                 var controller = segue.DestinationViewController as BrowseItemDetailViewController;
                 var indexPath = TableView.IndexPathForCell(sender as UITableViewCell);
-                var item = ViewModel.Genres[indexPath.Row];
+                var item = ViewModel.Movies[indexPath.Row];
 
                 controller.ViewModel = new ItemDetailViewModel(item);
             }
@@ -101,16 +101,16 @@ namespace MoviesCollection.iOS
             this.viewModel = viewModel;
         }
 
-        public override nint RowsInSection(UITableView tableview, nint section) => viewModel.Genres.Count;
+        public override nint RowsInSection(UITableView tableview, nint section) => viewModel.Movies.Count;
         public override nint NumberOfSections(UITableView tableView) => 1;
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
             var cell = tableView.DequeueReusableCell(CELL_IDENTIFIER, indexPath);
 
-            var item = viewModel.Genres[indexPath.Row];
-            cell.TextLabel.Text = item.Name;
-            cell.DetailTextLabel.Text = item.Name;
+            var item = viewModel.Movies[indexPath.Row];
+            cell.TextLabel.Text = item.Title;
+            cell.DetailTextLabel.Text = item.Overview;
             cell.LayoutMargins = UIEdgeInsets.Zero;
 
             return cell;

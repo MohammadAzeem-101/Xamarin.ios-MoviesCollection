@@ -116,10 +116,6 @@
     <Compile Include="ViewControllers\DetailViewControllers\BrowseItemDetailViewController.designer.cs">
       <DependentUpon>BrowseItemDetailViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="ViewControllers\AboutViewController.cs" />
-    <Compile Include="ViewControllers\AboutViewController.designer.cs">
-      <DependentUpon>AboutViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="ViewControllers\BrowseViewController.cs" />
     <Compile Include="ViewControllers\BrowseViewController.designer.cs">
       <DependentUpon>BrowseViewController.cs</DependentUpon>
@@ -134,6 +130,10 @@
     </Compile>
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="ViewControllers\GenreViewController.cs" />
+    <Compile Include="ViewControllers\GenreViewController.designer.cs">
+      <DependentUpon>GenreViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Entitlements.plist" />

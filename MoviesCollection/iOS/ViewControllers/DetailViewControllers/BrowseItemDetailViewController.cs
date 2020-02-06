@@ -13,8 +13,8 @@ namespace MoviesCollection.iOS
             base.ViewDidLoad();
 
             Title = ViewModel.Title;
-            ItemNameLabel.Text = ViewModel.Item.Name;
-            ItemDescriptionLabel.Text = ViewModel.Item.Name;
+            ItemNameLabel.Text = ViewModel.Item.Title;
+            ItemDescriptionLabel.Text = ViewModel.Item.Overview;
         }
     }
 }

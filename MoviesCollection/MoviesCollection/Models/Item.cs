@@ -86,7 +86,11 @@ namespace MoviesCollection
         [JsonProperty(PropertyName = "genres")]
         public List<Genre> Genres { get; set; }
     }
-
+    public class MovieList
+    {
+        [JsonProperty(PropertyName = "genres")]
+        public List<Movie> Movies { get; set; }
+    }
 
 
     public class ResponseModel

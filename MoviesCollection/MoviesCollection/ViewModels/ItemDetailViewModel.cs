@@ -4,12 +4,12 @@ namespace MoviesCollection
 {
     public class ItemDetailViewModel : BaseViewModel
     {
-        public Genre Item { get; set; }
-        public ItemDetailViewModel(Genre item = null)
+        public Movie Item { get; set; }
+        public ItemDetailViewModel(Movie item = null)
         {
             if (item != null)
             {
-                Title = item.Name;
+                Title = item.Title;
                 Item = item;
             }
         }

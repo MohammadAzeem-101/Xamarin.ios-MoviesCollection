@@ -10,6 +10,6 @@ namespace MoviesCollection
         Task<bool> DeleteItemAsync(string id);
         Task<T> GetItemAsync(string id);
         Task<IEnumerable<T>> GetGenreAsync(bool forceRefresh = false);
-        
+        Task<List<Movie>> GetMovieAsync(bool forceRefresh = false);
     }
 }

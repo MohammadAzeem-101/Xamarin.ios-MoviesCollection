@@ -7,8 +7,9 @@ namespace MoviesCollection.iOS
     {
         public TabBarController(IntPtr handle) : base(handle)
         {
-            TabBar.Items[0].Title = "Movies";
-            TabBar.Items[1].Title = "Favourites";
+            TabBar.Items[0].Title = "Genre";
+            TabBar.Items[1].Title = "Movies";
+            TabBar.Items[2].Title = "Favourites";
         }
     }
 }

@@ -8,13 +8,15 @@ namespace MoviesCollection
 {
     public class ItemsViewModel : BaseViewModel
     {
-        public ObservableCollection<Genre> Genres { get; set; }
+        public ObservableCollection<Movie> Movies { get; set; }
+
         public Command LoadItemsCommand { get; set; }
         public Command AddItemCommand { get; set; }
         public ItemsViewModel()
         {
-            Title = "Genre";
-            Genres = new ObservableCollection<Genre>();
+            Title = "Movies";
+            Movies = new ObservableCollection<Movie>();
+
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
             //AddItemCommand = new Command<Genre>(async (Genre item) => await AddItem(item));
         }
@@ -25,13 +27,13 @@ namespace MoviesCollection
             IsBusy = true;
             try
             {
-                Genres.Clear();
-                var genres = await DataStore.GetGenreAsync(true);
-                if (genres.Any())
+                Movies.Clear();
+                var movies = await DataStore.GetMovieAsync(true);
+                if (movies.Any())
                 {
-                    foreach (var item in genres)
+                    foreach (var item in movies)
                     {
-                        Genres.Add(item);
+                        Movies.Add(item);
                     }
                 }
             }
@@ -44,10 +46,10 @@ namespace MoviesCollection
                 IsBusy = false;
             }
         }
-        async Task AddItem(Genre item)
-        {
-            Genres.Add(item);
-            await DataStore.AddItemAsync(item);
-        }
+        //async Task AddItem(Genre item)
+        //{
+        //    //Genres.Add(item);
+        //    await DataStore.AddItemAsync(item);
+        //}
     }
 }
