@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{15E2E491-6F7F-474F-9200-79F2F5685B51}|Default">
+  <MonoDevelop.Ide.ItemProperties.MoviesCollection FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoviesCollection/Services/CloudDataStore.cs">
+    <Files>
+      <File FileName="iOS/ViewControllers/BrowseViewController.cs" Line="49" Column="88" />
+      <File FileName="iOS/ViewControllers/ItemNewViewController.cs" />
+      <File FileName="iOS/ViewControllers/TabBarController.cs" />
+      <File FileName="MoviesCollection/Services/MockDataStore.cs" />
+      <File FileName="MoviesCollection/Services/IDataStore.cs" />
+      <File FileName="MoviesCollection/ViewModels/ItemsViewModel.cs" />
+      <File FileName="MoviesCollection/Services/CloudDataStore.cs" Line="56" Column="52" />
+      <File FileName="MoviesCollection/ViewModels/ItemDetailViewModel.cs" />
+      <File FileName="iOS/ViewControllers/BrowseViewController.designer.cs" />
+      <File FileName="iOS/ViewControllers/ItemNewViewController.designer.cs" />
+      <File FileName="iOS/Main.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MoviesCollection" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MoviesCollection.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8A13C9B4-2531-4C04-BC20-C52EBD2618CF">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MoviesCollection.iOS>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Azeem/Projects/MoviesCollection/iOS/ViewControllers/ItemNewViewController.cs" relfile="iOS/ViewControllers/ItemNewViewController.cs" line="20" column="1" />
+      <Breakpoint file="/Users/Azeem/Projects/MoviesCollection/MoviesCollection/ViewModels/ItemsViewModel.cs" relfile="MoviesCollection/ViewModels/ItemsViewModel.cs" line="29" column="1" />
+      <Breakpoint file="/Users/Azeem/Projects/MoviesCollection/MoviesCollection/Services/CloudDataStore.cs" relfile="MoviesCollection/Services/CloudDataStore.cs" line="64" column="1" />
+      <Breakpoint file="/Users/Azeem/Projects/MoviesCollection/iOS/ViewControllers/BrowseViewController.cs" relfile="iOS/ViewControllers/BrowseViewController.cs" line="46" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
