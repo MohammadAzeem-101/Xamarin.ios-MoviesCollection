@@ -10,7 +10,7 @@ namespace MoviesCollection.iOS
     {
         UIRefreshControl refreshControl;
 
-        public ItemsViewModel ViewModel { get; set; }
+        public MovieViewModel ViewModel { get; set; }
 
         public BrowseViewController(IntPtr handle) : base(handle)
         {
@@ -20,7 +20,7 @@ namespace MoviesCollection.iOS
         {
             base.ViewDidLoad();
 
-            ViewModel = new ItemsViewModel();
+            ViewModel = new MovieViewModel();
 
             // Setup UITableView.
             refreshControl = new UIRefreshControl();
@@ -50,7 +50,7 @@ namespace MoviesCollection.iOS
                 var indexPath = TableView.IndexPathForCell(sender as UITableViewCell);
                 var item = ViewModel.Movies[indexPath.Row];
 
-                controller.ViewModel = new ItemDetailViewModel(item);
+                controller.ViewModel = new MovieDetailViewModel(item);
             }
             //else
             //{
@@ -94,9 +94,9 @@ namespace MoviesCollection.iOS
     {
         static readonly NSString CELL_IDENTIFIER = new NSString("ITEM_CELL");
 
-        ItemsViewModel viewModel;
+        MovieViewModel viewModel;
 
-        public ItemsDataSource(ItemsViewModel viewModel)
+        public ItemsDataSource(MovieViewModel viewModel)
         {
             this.viewModel = viewModel;
         }

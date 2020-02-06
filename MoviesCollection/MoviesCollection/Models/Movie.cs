@@ -3,20 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 
-namespace MoviesCollection
+namespace MoviesCollection.Models
 {
-    public class Item
-    {
-        public string Id { get; set; }
-        public string Text { get; set; }
-        public string Description { get; set; }
-    }
-    public class Genre
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
-
     public class Movie
     {
 
@@ -80,35 +68,8 @@ namespace MoviesCollection
         public DateTimeOffset? ReleaseDate { get; set; }
     }
 
-
-    public class GenreList
-    {
-        [JsonProperty(PropertyName = "genres")]
-        public List<Genre> Genres { get; set; }
-    }
     public class MovieList
     {
-        [JsonProperty(PropertyName = "genres")]
         public List<Movie> Movies { get; set; }
-    }
-
-
-    public class ResponseModel
-    {
-        public string Status { get; set; }
-
-        public Codes Code { get; set; }
-
-        public object Body { get; set; }
-
-        public string Message { get; set; }
-
-        public string AccessToken { get; set; }
-    }
-
-    public enum Codes
-    {
-        SuccessCode = 200,
-        FailureCode = 400
     }
 }

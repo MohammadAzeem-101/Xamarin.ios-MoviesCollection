@@ -1,4 +1,5 @@
 ﻿using System;
+using MoviesCollection.Models;
 
 namespace MoviesCollection
 {
@@ -10,10 +11,10 @@ namespace MoviesCollection
         public static void Initialize()
         {
             if (UseMockDataStore)
-                ServiceLocator.Instance.Register<IDataStore<Item>, CloudDataStore>();
+                ServiceLocator.Instance.Register<IDataStore<Genre>, CloudDataStore>();
            // ServiceLocator.Instance.Register<IDataStore<Item>, MockDataStore>();
             else
-                ServiceLocator.Instance.Register<IDataStore<Item>, CloudDataStore>();
+                ServiceLocator.Instance.Register<IDataStore<Genre>, CloudDataStore>();
         }
     }
 }

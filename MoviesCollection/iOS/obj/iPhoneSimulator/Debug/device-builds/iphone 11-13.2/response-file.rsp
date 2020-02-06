@@ -1,5 +1,5 @@
-"--cache=/Users/Azeem/Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/mtouch-cache"
-"--sim=/Users/Azeem/Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/MoviesCollection.iOS.app"
+"--cache=/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/mtouch-cache"
+"--sim=/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/MoviesCollection.iOS.app"
 --executable=MoviesCollection.iOS
  --debug
  --nolink
@@ -9,14 +9,14 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=x86_64
-"--symbollist=/Users/Azeem/Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/mtouch-symbols.list"
+"--symbollist=/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/mtouch-symbols.list"
  --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.dll
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.dll"
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll
@@ -165,11 +165,11 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll
--r=/Users/Azeem/Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.dll
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll"
+"-r=/Users/Azeem/Developer/Demo Projects/MoviesCollection/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.dll"
  --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/Azeem/Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/MoviesCollection.iOS.exe
+"--root-assembly=/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/MoviesCollection.iOS.exe"
  

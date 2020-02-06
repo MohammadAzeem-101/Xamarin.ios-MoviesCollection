@@ -23,3 +23,28 @@
 /Users/Azeem/Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.csproj.CopyComplete
 /Users/Azeem/Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.exe
 /Users/Azeem/Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.pdb
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/actool/_PartialAppManifest.items
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/actool/_BundleResourceWithLogicalName.items
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/coremlc/_PartialAppManifest.items
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.2/optimized/
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.csprojAssemblyReference.cache
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.exe
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.pdb
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/MoviesCollection.iOS.exe
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/MoviesCollection.iOS.pdb
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.dll
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.dll
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Share.dll
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.pdb
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.xml
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Share.xml
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.xml
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.xml
+/Users/Azeem/Developer/Demo Projects/MoviesCollection/iOS/obj/iPhoneSimulator/Debug/MoviesCollection.iOS.csproj.CopyComplete

@@ -14,16 +14,8 @@ namespace MoviesCollection.iOS.ViewControllers
     [Register ("GenreViewController")]
     partial class GenreViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton btnAddItem { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (btnAddItem != null) {
-                btnAddItem.Dispose ();
-                btnAddItem = null;
-            }
         }
     }
 }

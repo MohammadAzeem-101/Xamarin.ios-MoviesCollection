@@ -120,9 +120,9 @@
     <Compile Include="ViewControllers\BrowseViewController.designer.cs">
       <DependentUpon>BrowseViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="ViewControllers\ItemNewViewController.cs" />
-    <Compile Include="ViewControllers\ItemNewViewController.designer.cs">
-      <DependentUpon>ItemNewViewController.cs</DependentUpon>
+    <Compile Include="ViewControllers\MovieNewViewController.cs" />
+    <Compile Include="ViewControllers\MovieNewViewController.designer.cs">
+      <DependentUpon>MovieNewViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewControllers\TabBarController.cs" />
     <Compile Include="ViewControllers\TabBarController.designer.cs">
