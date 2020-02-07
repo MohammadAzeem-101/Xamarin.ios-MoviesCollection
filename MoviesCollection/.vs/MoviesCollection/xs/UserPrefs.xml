@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="{15E2E491-6F7F-474F-9200-79F2F5685B51}|Default">
   <MonoDevelop.Ide.ItemProperties.MoviesCollection FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MoviesCollection/Services/ILocalService.cs">
-    <Files>
-      <File FileName="MoviesCollection/Services/ILocalService.cs" Line="5" Column="6" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MoviesCollection" expanded="True">
             <Node name="MoviesCollection" expanded="True">
-              <Node name="Helpers" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="ILocalService.cs" selected="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="MoviesCollection.iOS" expanded="True">
+              <Node name="Renderer" expanded="True">
+                <Node name="GetSqlLiteConnection.cs" selected="True" />
               </Node>
-              <Node name="ViewModels" expanded="True" />
             </Node>
           </Node>
         </State>

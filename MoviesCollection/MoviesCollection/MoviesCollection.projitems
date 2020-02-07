@@ -23,5 +23,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Genre.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\ILocalService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LocalService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ISqLiteServie.cs" />
   </ItemGroup>
 </Project>
