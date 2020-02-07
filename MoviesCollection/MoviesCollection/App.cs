@@ -11,10 +11,10 @@ namespace MoviesCollection
         public static void Initialize()
         {
             if (UseMockDataStore)
-                ServiceLocator.Instance.Register<IDataStore<Genre>, CloudDataStore>();
+                ServiceLocator.Instance.Register<IApiService<Genre>, ApiService>();
            // ServiceLocator.Instance.Register<IDataStore<Item>, MockDataStore>();
             else
-                ServiceLocator.Instance.Register<IDataStore<Genre>, CloudDataStore>();
+                ServiceLocator.Instance.Register<IApiService<Genre>, ApiService>();
         }
     }
 }

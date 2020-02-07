@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -18,8 +18,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="IVu-6x-Ha6" kind="relationship" relationship="viewControllers" id="1947"/>
-                        <segue destination="uSp-bD-Qry" kind="relationship" relationship="viewControllers" id="2021"/>
                         <segue destination="vUH-7L-AxO" kind="relationship" relationship="viewControllers" id="PCn-57-kqM"/>
+                        <segue destination="uSp-bD-Qry" kind="relationship" relationship="viewControllers" id="2021"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -56,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="1606" y="773"/>
         </scene>
-        <!--Browse-->
+        <!--Genre-->
         <scene sceneID="hTF-aU-mbW">
             <objects>
-                <navigationController title="Browse" automaticallyAdjustsScrollViewInsets="NO" id="IVu-6x-Ha6" sceneMemberID="viewController">
+                <navigationController title="Genre" automaticallyAdjustsScrollViewInsets="NO" id="IVu-6x-Ha6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Genre" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="U58-7W-wiN">
@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="716" y="-776"/>
         </scene>
-        <!--About-->
+        <!--Movies-->
         <scene sceneID="4YN-yV-spV">
             <objects>
-                <navigationController title="About" automaticallyAdjustsScrollViewInsets="NO" id="uSp-bD-Qry" sceneMemberID="viewController">
+                <navigationController title="Movies" automaticallyAdjustsScrollViewInsets="NO" id="uSp-bD-Qry" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Favorties" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dDs-el-YGI">
@@ -198,10 +198,10 @@
             </objects>
             <point key="canvasLocation" x="2240" y="-776"/>
         </scene>
-        <!--Movies-->
+        <!--Favorites-->
         <scene sceneID="rc5-3v-eX7">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vUH-7L-AxO" sceneMemberID="viewController">
+                <navigationController title="Favorites" automaticallyAdjustsScrollViewInsets="NO" id="vUH-7L-AxO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Movies" id="mWi-zv-MJy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hlz-qE-unR">

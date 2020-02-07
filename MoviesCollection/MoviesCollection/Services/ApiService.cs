@@ -13,7 +13,11 @@ using Plugin.Connectivity;
 
 namespace MoviesCollection
 {
-    public class CloudDataStore : IDataStore<Genre>
+    /// <summary>
+    /// Triggers when service methods call
+    /// </summary>
+    /// <author>Mohammad Azeem</author>
+    public class ApiService : IApiService<Genre>
     {
 
         private const string apiKey = "4e9132a7e19a3ba4d2b55ae1ff31a1ad";
@@ -25,7 +29,7 @@ namespace MoviesCollection
         private readonly string language;
         HttpClient client;
         List<Genre> genres;
-        public CloudDataStore()
+        public ApiService()
         {
             client = new HttpClient();
             language = CultureInfo.CurrentCulture.Name;

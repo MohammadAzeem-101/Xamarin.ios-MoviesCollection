@@ -4,7 +4,7 @@ using MoviesCollection.Models;
 
 namespace MoviesCollection
 {
-    public interface IDataStore<T>
+    public interface IApiService<T>
     {
         Task<bool> AddItemAsync(T item);
         Task<bool> UpdateItemAsync(T item);

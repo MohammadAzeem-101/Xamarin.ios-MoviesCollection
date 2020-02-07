@@ -8,7 +8,7 @@ namespace MoviesCollection
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Genre> DataStore => ServiceLocator.Instance.Get<IDataStore<Genre>>() ?? new CloudDataStore();
+        public IApiService<Genre> DataStore => ServiceLocator.Instance.Get<IApiService<Genre>>() ?? new ApiService();
 
         bool isBusy = false;
         public bool IsBusy

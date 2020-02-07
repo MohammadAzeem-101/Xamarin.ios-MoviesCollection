@@ -7,6 +7,10 @@ using MoviesCollection.Models;
 
 namespace MoviesCollection.ViewModels
 {
+    /// <summary>
+    /// Triggers when genre data load
+    /// </summary>
+    /// <author>Mohammad Azeem</author>
     public class GenreListViewModel : BaseViewModel
     {
         public ObservableCollection<Genre> Genres { get; set; }
